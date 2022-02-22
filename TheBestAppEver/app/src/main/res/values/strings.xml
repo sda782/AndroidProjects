@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheBestAppEver</string>
+    <string name="btn_lower">lowercase</string>
+    <string name="btn_cap">CAPITALIZE</string>
+    <string name="btn_reverse">REVERSE</string>
+    <string name="btn_upper">UPPERCASE</string>
+    <string name="TextView">TextView</string>
+</resources>
