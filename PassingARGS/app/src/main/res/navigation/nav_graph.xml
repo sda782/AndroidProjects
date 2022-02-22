@@ -30,5 +30,8 @@
         <argument
             android:name="age"
             app:argType="integer" />
+        <argument
+            android:name="person"
+            app:argType="com.aevumdev.passingargs.Person"/>
     </fragment>
 </navigation>

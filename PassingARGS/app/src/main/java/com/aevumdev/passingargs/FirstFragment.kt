@@ -41,9 +41,9 @@ class FirstFragment : Fragment() {
             binding.editTextNumber.error = "Empty input"
             return@setOnClickListener
             }
-            val action = SpecifyAmountFragmentDirections.confirmationAction(name)
-
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            val pers = Person(name,age.toInt())
+            val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(name, age.toInt(), pers)
+            findNavController().navigate(action)
         }
     }
 
